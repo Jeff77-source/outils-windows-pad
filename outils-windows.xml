@@ -23,19 +23,19 @@
     <Program_Language>French</Program_Language>
 
     <Program_Change_Info>
-        Mise à jour majeure : Compatibilité Windows 11 25H2. Intégration de Winget pour la mise à jour des logiciels. Support des certificats Secure Boot 2023 (DBX). Logiciel désormais signé numériquement (Certificat Jeff77).
+        Mise à jour majeure : Compatibilité Windows 11 25H2. Intégration de Winget pour la mise à jour automatisée des logiciels. Support des certificats Secure Boot 2023 (DBX). Logiciel désormais signé numériquement (Certificat Jeff77) pour une sécurité et une intégrité garanties.
     </Program_Change_Info>
 
     <Program_Category_Class>System Utilities::System Maintenance</Program_Category_Class>
 
     <Program_System_Requirements>
-        Windows 10 ou Windows 11, 64 bits, moins de 5 Mo d’espace disque. Connexion internet requise pour Winget.
+        Windows 10 ou Windows 11 (64 bits), ultra-léger (moins de 1 Mo d'espace disque). Connexion internet requise uniquement pour les fonctions Winget.
     </Program_System_Requirements>
 </Program_Info>
 
 <Web_Info>
     <Application_URLs>
-        <Application_Info_URL>https://www.jeff77.fr/</Application_Info_URL>
+        <Application_Info_URL>https://www.jeff77.fr/pad-outils-windows</Application_Info_URL>
         <Application_Order_URL>https://www.jeff77.fr/comparatif-des-versions</Application_Order_URL>
         <Application_Screenshot_URL>https://www.jeff77.fr/images/screenshot.png</Application_Screenshot_URL>
         <Application_Icon_URL>https://www.jeff77.fr/favicon.ico</Application_Icon_URL>
@@ -49,18 +49,18 @@
         Suite portable : Maintenance, Winget et Secure Boot 2023.
     </Char_Desc_45>
     <Char_Desc_250>
-        Outils Windows : Suite portable pour nettoyer, réparer et optimiser Windows 10/11. Inclut la mise à jour via Winget, la gestion du Secure Boot 2023 et une signature numérique certifiée.
+        Outils Windows : Suite portable (< 1 Mo) pour nettoyer, réparer et optimiser Windows 10/11. Inclut la mise à jour via Winget, la gestion du Secure Boot 2023 et une signature numérique certifiée.
     </Char_Desc_250>
     <Char_Desc_2000>
         Outils Windows est une suite complète d’outils système destinée aux utilisateurs particuliers et aux techniciens, conçue pour maintenir, réparer et optimiser Windows 10 et Windows 11.
 
-        Nouveautés majeures :
-        1. Maintenance logicielle : Intégration native de Winget pour la mise à jour automatisée de vos applications.
-        2. Sécurité renforcée : Gestion et installation des certificats Secure Boot 2023 (standard DBX).
-        3. Intégrité garantie : Le binaire est désormais signé numériquement (Certificat Jeff77) pour assurer une origine certifiée et éviter les faux positifs antivirus.
+        Points forts de cette version :
+        1. Maintenance logicielle : Intégration de la technologie Winget pour vérifier et installer automatiquement les mises à jour de vos applications tierces.
+        2. Sécurité système : Gestion proactive de la couche de démarrage avec la vérification et l'installation des nouveaux certificats Secure Boot 2023 (standard DBX).
+        3. Confiance et Intégrité : Le logiciel est signé numériquement (Certificat Jeff77), garantissant l'origine du code et réduisant les alertes de sécurité SmartScreen.
 
-        L'outil permet également la sauvegarde de profils utilisateurs, la migration vers d'autres versions de Windows sans perte de données, et la personnalisation avancée (interface Windows 10 sur Windows 11, menu clic droit enrichi). 
-        Entièrement portable, il s'exécute sans installation, idéal pour une utilisation sur clé USB.
+        L'outil regroupe plus de 40 fonctionnalités : sauvegarde de profils utilisateurs et navigateurs, migration vers d'autres versions de Windows sans perte de données, et personnalisation de l'interface (retour au menu clic droit classique, look Windows 10). 
+        Grâce à son poids plume (moins de 1 Mo) et son format portable, il s'exécute instantanément depuis une clé USB sans laisser de traces sur le système.
     </Char_Desc_2000>
 </French>
 
@@ -69,18 +69,18 @@
         Portable toolkit with Winget and Secure Boot 2023 support.
     </Char_Desc_45>
     <Char_Desc_250>
-        Outils Windows is a portable suite to clean, repair and optimize Windows 10/11. Includes Winget updates, Secure Boot 2023 management and digitally signed code.
+        Outils Windows: Ultra-lightweight (< 1 MB) portable suite to clean, repair and optimize Windows 10/11. Features Winget updates, Secure Boot 2023 support and digitally signed code.
     </Char_Desc_250>
     <Char_Desc_2000>
-        Outils Windows is a comprehensive system utility suite designed for home users and IT professionals to maintain, repair, and optimize Windows 10 and Windows 11.
+        Outils Windows is a powerful system utility suite designed for both home users and IT professionals to maintain, repair, and optimize Windows 10 and Windows 11.
 
-        Key Features:
+        Key features included:
         - Software Maintenance: Native Winget integration for automated application updates.
-        - Security Compliance: Support for Secure Boot 2023 certificates (DBX standard).
-        - Certified Safety: Digitally signed software (Jeff77 Certificate) ensuring code integrity and preventing SmartScreen issues.
+        - Advanced Security: Support for Secure Boot 2023 certificates (DBX standard).
+        - Certified Safety: Digitally signed software (Jeff77 Certificate) ensuring code integrity and reliable execution.
 
-        It also features full user profile backup, OS migration without data loss, and advanced UI customization (restoring Windows 10 look on Windows 11, enhanced context menu). 
-        Fully portable, it runs without installation and is perfect for USB drive toolkits.
+        With over 40 built-in tools, it handles full user profile backups, OS migration without data loss, and deep UI customization (restoring Windows 10 interface on Windows 11). 
+        Its ultra-compact size (less than 1 MB) and fully portable format allow it to be run directly from a USB drive on any technician's toolkit.
     </Char_Desc_2000>
 </English>
 </Program_Descriptions>
