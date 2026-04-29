@@ -7,11 +7,10 @@
 </MASTER_PAD_VERSION_INFO>
 
 <Program_Info>
-
     <Program_Name>Outils Windows - Suite de maintenance, sauvegarde et optimisation PC</Program_Name>
     <Program_Version>45.0</Program_Version>
     <Program_Release_Month>04</Program_Release_Month>
-    <Program_Release_Day>01</Program_Release_Day>
+    <Program_Release_Day>29</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
 
     <Program_Cost_Dollars>0</Program_Cost_Dollars>
@@ -24,88 +23,66 @@
     <Program_Language>French</Program_Language>
 
     <Program_Change_Info>
-        Amélioration de la compatibilité Windows 11 25H2 et ajout de nouveaux outils de maintenance.
+        Mise à jour majeure : Compatibilité Windows 11 25H2. Intégration de Winget pour la mise à jour des logiciels. Support des certificats Secure Boot 2023 (DBX). Logiciel désormais signé numériquement (Certificat Jeff77).
     </Program_Change_Info>
 
     <Program_Category_Class>System Utilities::System Maintenance</Program_Category_Class>
 
     <Program_System_Requirements>
-        Windows 10 ou Windows 11, 64 bits, moins de 5 Mo d’espace disque
+        Windows 10 ou Windows 11, 64 bits, moins de 5 Mo d’espace disque. Connexion internet requise pour Winget.
     </Program_System_Requirements>
-
 </Program_Info>
 
 <Web_Info>
-
     <Application_URLs>
-
         <Application_Info_URL>https://www.jeff77.fr/</Application_Info_URL>
-
         <Application_Order_URL>https://www.jeff77.fr/comparatif-des-versions</Application_Order_URL>
-
         <Application_Screenshot_URL>https://www.jeff77.fr/images/screenshot.png</Application_Screenshot_URL>
-
         <Application_Icon_URL>https://www.jeff77.fr/favicon.ico</Application_Icon_URL>
-
-        <!-- 🔥 CORRECTION ICI -->
-        <Application_XML_File_URL>
-https://raw.githubusercontent.com/Jeff77-source/outils-windows-pad/main/outils-windows.xml
-        </Application_XML_File_URL>
-
+        <Application_XML_File_URL>https://raw.githubusercontent.com/Jeff77-source/outils-windows-pad/main/outils-windows.xml</Application_XML_File_URL>
     </Application_URLs>
-
 </Web_Info>
 
 <Program_Descriptions>
-
 <French>
+    <Char_Desc_45>
+        Suite portable : Maintenance, Winget et Secure Boot 2023.
+    </Char_Desc_45>
+    <Char_Desc_250>
+        Outils Windows : Suite portable pour nettoyer, réparer et optimiser Windows 10/11. Inclut la mise à jour via Winget, la gestion du Secure Boot 2023 et une signature numérique certifiée.
+    </Char_Desc_250>
+    <Char_Desc_2000>
+        Outils Windows est une suite complète d’outils système destinée aux utilisateurs particuliers et aux techniciens, conçue pour maintenir, réparer et optimiser Windows 10 et Windows 11.
 
-<Char_Desc_45>
-Suite portable de maintenance et d’optimisation pour Windows.
-</Char_Desc_45>
+        Nouveautés majeures :
+        1. Maintenance logicielle : Intégration native de Winget pour la mise à jour automatisée de vos applications.
+        2. Sécurité renforcée : Gestion et installation des certificats Secure Boot 2023 (standard DBX).
+        3. Intégrité garantie : Le binaire est désormais signé numériquement (Certificat Jeff77) pour assurer une origine certifiée et éviter les faux positifs antivirus.
 
-<Char_Desc_250>
-Outils Windows est une suite portable conçue pour nettoyer, réparer, sauvegarder et optimiser Windows 10 et Windows 11 sans installation.
-</Char_Desc_250>
-
-<Char_Desc_2000>
-Outils Windows est une suite complète d’outils système destinée aux utilisateurs particuliers et aux techniciens.
-
-Elle permet de maintenir, réparer et optimiser Windows 10 et Windows 11, mais aussi de sauvegarder les données importantes, de gérer les profils utilisateurs et de faciliter la migration vers d’autres versions de Windows sans perte de données.
-
-Le logiciel intègre également des fonctions avancées de personnalisation, comme le retour de l’interface Windows 10 sur Windows 11, ainsi que l’amélioration du menu clic droit avec des outils pratiques.
-
-Entièrement portable, il ne nécessite aucune installation et peut être utilisé directement depuis une clé USB.
-
-Il évolue régulièrement avec de nouvelles fonctionnalités et améliorations de compatibilité.
-</Char_Desc_2000>
-
+        L'outil permet également la sauvegarde de profils utilisateurs, la migration vers d'autres versions de Windows sans perte de données, et la personnalisation avancée (interface Windows 10 sur Windows 11, menu clic droit enrichi). 
+        Entièrement portable, il s'exécute sans installation, idéal pour une utilisation sur clé USB.
+    </Char_Desc_2000>
 </French>
 
 <English>
+    <Char_Desc_45>
+        Portable toolkit with Winget and Secure Boot 2023 support.
+    </Char_Desc_45>
+    <Char_Desc_250>
+        Outils Windows is a portable suite to clean, repair and optimize Windows 10/11. Includes Winget updates, Secure Boot 2023 management and digitally signed code.
+    </Char_Desc_250>
+    <Char_Desc_2000>
+        Outils Windows is a comprehensive system utility suite designed for home users and IT professionals to maintain, repair, and optimize Windows 10 and Windows 11.
 
-<Char_Desc_45>
-Portable toolkit to clean, repair and optimize Windows 10/11.
-</Char_Desc_45>
+        Key Features:
+        - Software Maintenance: Native Winget integration for automated application updates.
+        - Security Compliance: Support for Secure Boot 2023 certificates (DBX standard).
+        - Certified Safety: Digitally signed software (Jeff77 Certificate) ensuring code integrity and preventing SmartScreen issues.
 
-<Char_Desc_250>
-Outils Windows is a lightweight portable suite designed to clean, repair, backup and optimize Windows 10 and Windows 11 without installation.
-</Char_Desc_250>
-
-<Char_Desc_2000>
-Outils Windows is a complete system utility suite designed for both home users and IT technicians.
-
-It allows users to maintain, repair and optimize Windows 10 and Windows 11, as well as backup important data, manage user profiles, and migrate to other Windows versions without data loss.
-
-It also includes advanced customization features such as restoring the Windows 10 interface on Windows 11 and enhancing the right-click menu with useful tools.
-
-Fully portable, it requires no installation and can be run directly from a USB drive.
-
-The software is regularly updated with new features and compatibility improvements.
-</Char_Desc_2000>
-
+        It also features full user profile backup, OS migration without data loss, and advanced UI customization (restoring Windows 10 look on Windows 11, enhanced context menu). 
+        Fully portable, it runs without installation and is perfect for USB drive toolkits.
+    </Char_Desc_2000>
 </English>
-
 </Program_Descriptions>
 
 </XML_DIZ_INFO>
