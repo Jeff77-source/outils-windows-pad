@@ -8,9 +8,9 @@
 
 <Program_Info>
     <Program_Name>Outils Windows - Suite de maintenance, sauvegarde et optimisation PC</Program_Name>
-    <Program_Version>45.0</Program_Version>
-    <Program_Release_Month>04</Program_Release_Month>
-    <Program_Release_Day>29</Program_Release_Day>
+    <Program_Version>46.0.0.2</Program_Version>
+    <Program_Release_Month>05</Program_Release_Month>
+    <Program_Release_Day>20</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
 
     <Program_Cost_Dollars>0</Program_Cost_Dollars>
@@ -23,13 +23,13 @@
     <Program_Language>French</Program_Language>
 
     <Program_Change_Info>
-        Mise à jour majeure : Compatibilité Windows 11 25H2. Intégration de Winget. Support des certificats Secure Boot 2023 (DBX). Logiciel signé numériquement (Certificat Jeff77).
+        Mise à jour majeure V46.0.0.2 : Détection automatique de nouvelles versions (affichage dans le bandeau et module dédié), amélioration du module Windows Defender, nouveaux modes de tri (Taille/Extension) pour le listing de fichiers, et extension de la validité Gold à 120 jours.
     </Program_Change_Info>
 
     <Program_Category_Class>System Utilities::System Maintenance</Program_Category_Class>
 
     <Program_System_Requirements>
-        Windows 10/11 (64 bits), ultra-léger (&lt; 1 Mo). Connexion internet requise pour : mises à jour Winget, installation de WMIC (si absent) et installation du certificat éditeur Jeff77.
+        Windows 10/11 (64 bits), ultra-léger (&lt; 1 Mo). Connexion internet requise pour : mises à jour Winget, vérification automatique des versions, installation de WMIC (si absent) et installation du certificat éditeur Jeff77.
     </Program_System_Requirements>
 </Program_Info>
 
@@ -46,41 +46,41 @@
 <Program_Descriptions>
 <French>
     <Char_Desc_45>
-        Suite portable : Maintenance, Winget et Secure Boot 2023.
+        Suite portable : Maintenance, Winget et Scan auto.
     </Char_Desc_45>
     <Char_Desc_250>
-        Outils Windows : Suite portable (&lt; 1 Mo) pour nettoyer, réparer et optimiser Windows 10/11. Inclut Winget, le Secure Boot 2023 et une signature numérique certifiée (Certificat Jeff77).
+        Outils Windows V46 : Suite portable ultra-légère pour optimiser Windows 10/11. Intègre désormais la détection automatique de mises à jour, le support Winget, Secure Boot 2023 et une signature numérique certifiée Jeff77.
     </Char_Desc_250>
     <Char_Desc_2000>
-        Outils Windows est une suite complète d’outils système destinée aux utilisateurs particuliers et aux techniciens, conçue pour maintenir, réparer et optimiser Windows 10 et Windows 11.
+        Outils Windows est une suite complète d’outils système conçue pour maintenir, réparer et optimiser Windows 10 et 11.
 
-        Points forts de cette version :
-        1. Maintenance logicielle : Intégration de la technologie Winget pour automatiser les mises à jour de vos applications.
-        2. Sécurité système : Déploiement simplifié des nouveaux certificats Secure Boot 2023 (standard DBX).
-        3. Signature Numérique : Logiciel signé (Certificat Jeff77) garantissant l'intégrité du code. 
+        Nouveautés V46.0.0.2 :
+        1. Détection automatique : Vérification en temps réel des mises à jour avec notification dans le bandeau principal et le module dédié.
+        2. Maintenance avancée : Amélioration du module Windows Defender et nouveaux tris intelligents pour le listing de fichiers (par Taille ou Extension).
+        3. Sécurité &amp; Confiance : Signature numérique Jeff77, support Secure Boot 2023 et durées de validité étendues (120 jours pour les membres Gold).
 
-        Note technique : Une connexion internet est nécessaire lors du premier lancement pour l'installation automatique du certificat éditeur, des composants WMIC (si manquants sous W11) et pour l'utilisation des fonctions Winget.
+        Note technique : Une connexion internet est nécessaire au lancement pour la vérification des versions, l'installation du certificat éditeur, les composants WMIC et les fonctions Winget.
 
-        Poids plume (&lt; 1 Mo), 40+ outils intégrés, idéal pour une clé USB technique.
+        Poids plume (&lt; 1 Mo), 40+ outils intégrés, indispensable pour toute clé USB technique.
     </Char_Desc_2000>
 </French>
 
 <English>
     <Char_Desc_45>
-        Portable toolkit with Winget and Secure Boot 2023 support.
+        Portable toolkit with Auto-Update and Winget.
     </Char_Desc_45>
     <Char_Desc_250>
-        Outils Windows: Ultra-lightweight (&lt; 1 MB) suite to clean, repair and optimize Windows 10/11. Features Winget updates, Secure Boot 2023 and signed code (Jeff77).
+        Outils Windows V46: Ultra-lightweight suite to optimize Windows 10/11. Now features automatic update detection, Winget support, Secure Boot 2023 and signed code (Jeff77).
     </Char_Desc_250>
     <Char_Desc_2000>
-        Outils Windows is a powerful system utility suite designed for home users and IT professionals to maintain, repair, and optimize Windows 10 and Windows 11.
+        Outils Windows is a powerful system utility suite designed for home users and IT professionals to maintain, repair, and optimize Windows 10 and 11.
 
-        Key features:
-        - Software Maintenance: Native Winget integration for automated updates.
-        - Advanced Security: Support for Secure Boot 2023 certificates (DBX standard).
-        - Certified Safety: Digitally signed software (Jeff77 Certificate). 
+        Key features in V46:
+        - Auto-Update Detection: Real-time version check with notifications in the UI and dedicated module.
+        - Software Maintenance: Native Winget integration and improved Windows Defender management.
+        - Certified Safety: Digitally signed software (Jeff77 Certificate) and Secure Boot 2023 support.
 
-        Technical Note: Internet access is required for the initial setup of the editor certificate, WMIC installation (if missing on Windows 11), and Winget-related features.
+        Technical Note: Internet access is required for version checking, initial setup of the editor certificate, WMIC installation, and Winget-related features.
 
         Ultra-compact (&lt; 1 MB), 40+ tools, perfect for professional USB toolkits.
     </Char_Desc_2000>
